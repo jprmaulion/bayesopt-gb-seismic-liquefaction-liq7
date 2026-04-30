@@ -23,7 +23,7 @@ This repository implements a focused machine learning pipeline for binary predic
 </p>
 <p align="left"><em><strong>Figure. </strong> Four-panel graphical abstract summarizing the Bayesian-optimized gradient boosting pipeline for seismic soil liquefaction prediction. <strong>(A)</strong> Class distribution across 2,833 case histories from the LIQ/7/2833 global database, showing L=1 (liquefied, n=1,646, 58.1%) and L=0 (non-liquefied, n=1,187, 41.9%). <strong>(B)</strong> Receiver Operating Characteristic (ROC) curves for XGBoost, LightGBM, and Logistic Regression baseline evaluated under geographic stratified 5-fold cross-validation, demonstrating the discrimination advantage of gradient boosting over the linear baseline. <strong>(C)</strong> AUC-ROC comparison bar chart with error bars from 5-fold geographic CV, showing the random baseline (0.500) for reference. <strong>(D)</strong> SHAP feature importance for the best-performing gradient boosting model, confirming that ML-derived feature rankings align with classical geotechnical parameters (seismic demand, soil resistance, depth) from the simplified procedure (Seed and Idriss, 1971; Boulanger and Idriss, 2014). Dataset: LIQ/7/2833, 15 countries, 50+ earthquakes.</em></p>
 
-## Dataset
+## [Dataset](https://data.mendeley.com/datasets/rmjnghdrbv/2)
 
 | Property | Value |
 | :--- | :--- |
